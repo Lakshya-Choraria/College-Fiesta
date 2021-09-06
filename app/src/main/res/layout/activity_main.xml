@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#000"
+    android:layout_height="match_parent"
+    tools:context="com.android.collegefiesta.MainActivity"
+    android:orientation="vertical">
+
+    <com.lorentzos.flingswipe.SwipeFlingAdapterView
+        android:id="@+id/frame"
+        android:background="@drawable/img7"
+        android:layout_width="match_parent"
+        android:layout_above="@id/ln"
+        android:layout_height="wrap_content"
+        app:rotation_degrees="-30"
+        tools:context=".MyActivity"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/ln"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:text="SignOut"
+            android:background="@drawable/round_button"
+            android:onClick="logoutUser" />
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:text="Matches"
+            android:onClick="goToMatches" />
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:textColor="#FFFFFF"
+            android:text="Settings"
+            android:onClick="goToSettings" />
+    </LinearLayout>
+
+</RelativeLayout>

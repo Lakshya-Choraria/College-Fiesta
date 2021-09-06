@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "191502103509",
+    "firebase_url": "https://college-fiesta-46104-default-rtdb.firebaseio.com",
+    "project_id": "college-fiesta-46104",
+    "storage_bucket": "college-fiesta-46104.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191502103509:android:d35074f9b59e896d32c35c",
+        "android_client_info": {
+          "package_name": "com.android.collegefiesta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191502103509-b7g022nva614b56hl4hh0o3fv537u29u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.collegefiesta",
+            "certificate_hash": "82cbea3488942532a7b1f7e280bedf11f59a4b45"
+          }
+        },
+        {
+          "client_id": "191502103509-4og0vt7nq9ppe9po81tvbo22a8ea8fdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSwXnDy_c5w5fI4lLLtJUQv_r9FYo2xvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191502103509-4og0vt7nq9ppe9po81tvbo22a8ea8fdn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
